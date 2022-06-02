@@ -1,0 +1,23 @@
+.listContainer{
+  display:flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 1.5em;
+  gap:1em
+}
+
+.listContainer li {
+  display: flex;
+  align-items: baseline;
+  column-gap: 0.5em;
+  gap:1em
+}
+
+.listContainer li p{
+  color:#2b32b2;
+  font-weight: bold;
+}
+
+.listContainer li:nth-child(3) p {
+  color:#1b9ff8;
+}

@@ -1,8 +1,9 @@
 import "./App.css";
-import { MiPrimerComponente } from "./Clases/Clase3/Clase3";
+import { Children } from "./Clases/Clase4/RepasoClase3/Children/Children";
+import { ComponenteProps } from "./Clases/Clase4/RepasoClase3/props/ComponenteProps";
+import { RepasoClase3 } from "./Clases/Clase4/RepasoClase3/RepasoClase3";
 
 function App() {
-	return <MiPrimerComponente />;
+	return <Children />;
 }
-
 export default App;
