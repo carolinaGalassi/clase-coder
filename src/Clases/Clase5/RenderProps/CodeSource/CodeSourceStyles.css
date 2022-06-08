@@ -1,0 +1,23 @@
+.list2Container{
+  display:flex;
+  flex-direction: column;
+}
+
+.list2Container button{
+  align-self: flex-end;
+  margin-right: 1em;
+  font-size: 1.2em;
+  border-radius: 20px;
+  background-color: #24aeff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  cursor:pointer;
+  transition:opacity 0.2s ease;
+}
+
+.list2Container button:hover{
+  opacity:0.8;
+}

@@ -1,0 +1,56 @@
+.cardContainer{
+  width: 300px;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer h4 {
+  padding: 0.3em 0.8em;
+  margin-top: 0 !important;
+  font-family: 'Zilla Slab';
+  padding-top: 0 !important;
+  color: #8a8a8a;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+}
+
+.cardContainer h2 {
+  padding: 0.3em 0.4em;
+  font-family: 'Zilla Slab';
+  margin-bottom: 0 !important;
+  font-size: 2em;
+  padding-bottom: 0;
+}
+
+.cardContainer .rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.cardContainer button{
+  font-size: 1.2em;
+  border-radius: 20px;
+  background-color: #24aeff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  cursor:pointer;
+  transition:opacity 0.2s ease;
+}
+
+.cardContainer button:hover{
+  opacity:0.8;
+}
+
+.cardContainer h5{
+  font-family: 'Zilla Slab';
+    font-size: 1.2em;
+    margin: 0;
+    align-self: flex-end;
+} 
