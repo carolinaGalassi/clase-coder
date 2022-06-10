@@ -1,0 +1,32 @@
+.codeSourceListContainer{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  align-items: center;
+  padding: 0 1em;
+
+}
+.codeSourceListContainer h5{
+  font-size: 1.2em;
+  color:white;
+  align-self: baseline;
+}
+
+.codeSourceListContainer button{
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+  border-radius: 20px;
+  background-color: #24aeff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  cursor:pointer;
+  transition:opacity 0.2s ease;
+  align-self: end;
+}
+
+.codeSourceListContainer button:hover{
+  opacity:0.8;
+}

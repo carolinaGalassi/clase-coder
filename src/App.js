@@ -1,7 +1,7 @@
 import "./App.css";
-import { CounterDate } from "./Clases/Clase5/CounterDate/CounterDate";
+import { CodeSource } from "./Clases/Clase6/EjemploMap/CodeSource";
 
 function App() {
-	return <CounterDate />;
+	return <CodeSource />;
 }
 export default App;
